@@ -12,7 +12,7 @@ def move(x,y):
                 continue
             if a+b*2<=w:
                 flag|=move(x-a,y-b)
-    flag= not flag
+    flag=not flag
     dic[t]=flag
     return flag
 move(60,60)
